@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e387a"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ins1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="Please inter the required informations"
+        android:textColor="#9fafca"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.490"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.320" />
+
+    <TextView
+        android:id="@+id/clone1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <TextView
+        android:id="@+id/clone2"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <TextView
+        android:id="@+id/clone3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <EditText
+        android:id="@+id/name1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:allowUndo="false"
+        android:autoText="false"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hapticFeedbackEnabled="true"
+        android:hint="                Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColor="#0e387a"
+        android:textColorHint="#7B8FB1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <Button
+        android:id="@+id/butt1"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#698DCA"
+        android:fontFamily="@font/alata"
+        android:hapticFeedbackEnabled="true"
+        android:text="Proceed"
+        android:textColor="#0e387a"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="203dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/user_avatar_contact_portfolio_personal_portrait_profile_1_5182" />
+
+    <EditText
+        android:id="@+id/age1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hapticFeedbackEnabled="true"
+        android:hint="   Age"
+        android:inputType="number"
+        android:textColor="#0e387a"
+        android:textColorHint="#7B8FB1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <EditText
+        android:id="@+id/ddii"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#9fafca"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hapticFeedbackEnabled="true"
+        android:hint="           ID"
+        android:inputType="number"
+        android:textColor="#0e387a"
+        android:textColorHint="#7B8FB1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
